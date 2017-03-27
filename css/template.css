@@ -28,9 +28,9 @@ body {
 
 .navitem {
   /*position settings aren't right yet for navitems */
-  margin: 0 5%;
+  margin: 0 4vw;
   text-align: center;
-  font-size: 2em;
+  font-size: 3vw;
   /*temp settings*/
   border: 1px solid red;
   color: white;

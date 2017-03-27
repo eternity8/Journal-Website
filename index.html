@@ -6,7 +6,9 @@
   <title> My Journal </title>
   <link href="css/template.css" rel="stylesheet">
   </head>
+
   <body>
+    <!--Top Navbar Section -->
     <nav id="navbar">
       <span class="navitem">My Journal</span>
       <span class="navitem">Help </span>
@@ -14,11 +16,15 @@
       <span class="navitem">Sitemap</span>
       <span class="navitem">Logout</span>
     </nav>
+   <!--End Navbar Section -->
+
     <div id="pagecontent">
+
+      <!-- Date/Event Selection Panel -->
       <div id="journalselection">
-        <div id="dateselection"> 
+        <div id="dateselection">
           <h2 style="text-align:center"> Select Date: </h2>
-          <div class="date" > 
+          <div class="date" >
             Year:<br><br>
             <button type="button"> - </button>
             <input class="date_input" type="text" value="2017">
@@ -35,8 +41,8 @@
             <button type="button"> + </button>
             </div>
         </div>
-        <div id="eventselection"> 
-          <h2 style="text-align:center"> Events:</h2> 
+        <div id="eventselection">
+          <h2 style="text-align:center"> Events:</h2>
           <div id="events" >
 
           </div>
@@ -45,6 +51,9 @@
          <!-- button type="button"> Rename </button -->
         </div>
       </div>
+      <!-- End Date/Event Panel -->
+
+      <!-- Journal Panel-->
       <div id=journal>  
 		<div id="journalText">
 		<textarea id="journalTextArea">Enter text . . .</textarea>
@@ -62,5 +71,7 @@
 	  </div>
     </div>
 	<script src="js/homepage.js"></script>
+      <!-- End Journal Panel-->
   </body>
 </html>
+
