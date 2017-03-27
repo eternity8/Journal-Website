@@ -91,6 +91,7 @@ body {
 }
 
 #events{
+	overflow:auto;
   position: relative;
   left: 0;
   height: 90%;
@@ -108,5 +109,94 @@ position: absolute;
  /*temp settings*/
  border: 5px solid green;
  background-color: #e6ffe6;
-
 }
+
+//time-journal text used in journal panel
+#time{
+	font-size:10px;
+}
+
+#journalTextArea{
+	height: 100px;
+   width: 98%;
+   
+   padding:1%;
+   border:none;
+}
+
+#journalPanel{
+	overflow:auto;
+    text-align:center;
+    position: fixed;
+    top: 16%;
+    right: 3%;
+    width: 46%;
+    height: 75%;
+	font:"timesnewroman";
+    z-index:2;
+}
+
+#buttonArea{
+    text-align:center;
+	float: right;
+    position: fixed;
+    top: 90%;
+    right: 5%;
+    width: 40%;
+    height: 5%;
+    z-index:4;
+}
+
+#journalText{
+	overflow:auto;
+	text-align:left;
+    position: fixed;
+    top: 35%;
+    right: 3%;
+    width: 45.7%;
+    height: 50%;
+    z-index:3;
+    border: 3px solid green;
+	float center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
