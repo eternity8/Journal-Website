@@ -15,7 +15,36 @@
       <span class="navitem">Logout</span>
     </nav>
     <div id="pagecontent">
-      <div id="journalselection"></div>
+      <div id="journalselection">
+        <div id="dateselection"> 
+          <h2 style="text-align:center"> Select Date: </h2>
+          <div class="date" > 
+            Year:<br><br>
+            <button type="button"> - </button>
+            <input class="date_input" type="text" value="2017">
+            <button type="button"> + </button>
+          </div>
+          <div class="date" > Month:<br><br>
+            <button type="button"> - </button>
+            <input class="date_input" type="text" value="03">
+            <button type="button"> + </button>
+          </div>
+          <div class="date" > Day:<br><br>
+            <button type="button"> - </button>
+            <input class="date_input" type="text" value="27">
+            <button type="button"> + </button>
+            </div>
+        </div>
+        <div id="eventselection"> 
+          <h2 style="text-align:center"> Events:</h2> 
+          <div id="events" >
+
+          </div>
+          <button type="button"> Add new entry</button>
+          <button type="button"> Delete entry</button>
+          <button type="button"> Rename </button>
+        </div>
+      </div>
       <div id=journal></div>
     </div>
   </body>

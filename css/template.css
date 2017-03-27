@@ -59,6 +59,46 @@ body {
 
 }
 
+#dateselection{
+  position: absolute;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  border-right: 5px solid red;
+
+}
+
+#eventselection{
+  position: absolute;
+  left: 41%;
+  width: 59%;
+  height: 100%;
+}
+
+.date{
+  position: relative;
+  left: 0;
+  height: 25%;
+  width:90%;
+  border-top: 5px solid red;
+  padding: 5%;
+}
+
+.date_input{
+  max-width: 30%;
+  height: 15%;
+  text-align: center;
+}
+
+#events{
+  position: relative;
+  left: 0;
+  height: 90%;
+  width:100%;
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+}
+
 #journal {
 position: absolute;
  right: 0;
