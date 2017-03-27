@@ -41,6 +41,11 @@ body {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #pagecontent {
   position: absolute;
   top: 80px;
@@ -116,7 +121,7 @@ position: absolute;
  background-color: #e6ffe6;
 }
 
-//time-journal text used in journal panel
+/*time-journal text used in journal panel*/
 #time{
 	font-size:10px;
 }
@@ -124,7 +129,7 @@ position: absolute;
 #journalTextArea{
 	height: 100px;
    width: 98%;
-   
+
    padding:1%;
    border:none;
 }
@@ -164,44 +169,3 @@ position: absolute;
     border: 3px solid green;
 	float center
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

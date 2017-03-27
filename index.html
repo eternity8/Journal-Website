@@ -10,11 +10,11 @@
   <body>
     <!--Top Navbar Section -->
     <nav id="navbar">
-      <span class="navitem">My Journal</span><!--
-      --><span class="navitem">Help </span><!--
-      --><span class="navitem">Send Feedback </span><!--
-      --><span class="navitem">Sitemap</span><!--
-      --><span class="navitem">Logout</span>
+      <span class="navitem"><a href="#">My Journal</a></span><!--
+      --><span class="navitem"><a href="help.html">Help</a></span><!--
+      --><span class="navitem"><a href="#">Send Feedback</a></span><!--
+      --><span class="navitem"><a href="#">Sitemap</a></span><!--
+      --><span class="navitem"><a href="#">Logout</a></span>
     </nav>
    <!--End Navbar Section -->
 
@@ -54,24 +54,25 @@
       <!-- End Date/Event Panel -->
 
       <!-- Journal Panel-->
-      <div id=journal>  
-		<div id="journalText">
-		<textarea id="journalTextArea">Enter text . . .</textarea>
-		</div>	
-		<div id="journalPanel">
-		<h3>Journal Entry:</h3><input id="input" type="text" name="fname">
-		<p id="time"></p>
-		</div>		
-		<div id="buttonArea">
-		<button id="finishEdit" type="button" onClick = finishEdit() disabled = true>finish edit</button>
-		<button type="button" onClick = cancel()>cancel/clear</button>
-		<button id="save" type="button" onclick=save()>save</button>
-		<button type="button">(fullscreen symbol)</button>
-		</div>  
+      <div id=journal>
+		      <div id="journalText">
+		          <textarea id="journalTextArea">Enter text . . .</textarea>
+		      </div>
+		      <div id="journalPanel">
+		          <h3>Journal Entry:</h3><input id="input" type="text" name="fname">
+		            <p id="time"></p>
+		      </div>
+		      <div id="buttonArea">
+		          <button id="finishEdit" type="button" onClick = finishEdit() disabled = true>finish edit</button>
+		          <button type="button" onClick = cancel()>cancel/clear</button>
+		          <button id="save" type="button" onclick=save()>save</button>
+		          <button type="button">(fullscreen symbol)</button>
+		      </div>
 	  </div>
-    </div>
+    <!-- End Journal Panel-->
+  </div>
+  <!-- End Page Content-->
 	<script src="js/homepage.js"></script>
-      <!-- End Journal Panel-->
+
   </body>
 </html>
-
