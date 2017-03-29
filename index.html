@@ -13,7 +13,7 @@
       <span class="navitem"><a href="#">My Journal</a></span><!--
       --><span class="navitem"><a href="help.html">Help</a></span><!--
       --><span class="navitem"><a href="#">Send Feedback</a></span><!--
-      --><span class="navitem"><a href="#">Sitemap</a></span><!--
+      --><span class="navitem"><a href="sitemap.html">Sitemap</a></span><!--
       --><span class="navitem"><a href="#">Logout</a></span>
     </nav>
    <!--End Navbar Section -->
@@ -23,7 +23,7 @@
       <!-- Date/Event Selection Panel -->
       <div id="journalselection">
         <div id="dateselection">
-          <h2 style="text-align:center"> Select Date: </h2>
+          <h2 class="centre"> Select Date: </h2>
           <div class="date" >
             Year:<br><br>
             <button type="button"> - </button>
@@ -42,7 +42,7 @@
             </div>
         </div>
         <div id="eventselection">
-          <h2 style="text-align:center"> Events:</h2>
+          <h2 class="centre"> Events:</h2>
           <div id="events" >
 
           </div>
@@ -63,7 +63,7 @@
 		            <p id="time"></p>
 		      </div>
 		      <div id="buttonArea">
-		          <button id="finishEdit" type="button" onClick = finishEdit() disabled = true>finish edit</button>
+		          <button id="finishEdit" type="button" onClick = finishEdit() disabled>finish edit</button>
 		          <button type="button" onClick = cancel()>cancel/clear</button>
 		          <button id="save" type="button" onclick=save()>save</button>
 		          <button type="button">(fullscreen symbol)</button>
